@@ -2,16 +2,49 @@
 body {
   background-color: #000000;
   color: #FFFFFF;
+  text-align: center;
 }
 
 main {
-  margin: 3% 0px;
+  margin: 0px auto;
   padding: 10px;
-  position: relative;
-  left: 10%;
-  right: 20%
+  display: inline-block;
   border-left: 4px solid #FFFFFF;
-  border-right: 2px dashed #FFFFFF;
+}
+
+h1 {
+  text-align: left;
+  font-size: 60px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+p {
+  font-family: "Courier Prime", monospace;
+  font-weight: 100;
+  font-style: normal;
+}
+
+a {
+  color: #764825;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 130%;
 }
 
 table#planets {
@@ -19,7 +52,9 @@ table#planets {
 }
 
 th {
-  text-
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
 }
 
 td, th {
@@ -30,6 +65,8 @@ td, th {
 
 td {
   border-bottom: 2px solid #FFFFFF;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
 }
 
 .rowHead {
@@ -43,4 +80,9 @@ td {
 
 .greyHover:hover {
   background-color: #333333;
+}
+
+.superscript {
+  font-size: 75%;
+  vertical-align: super;
 }
