@@ -1,13 +1,46 @@
+
 body {
   background-color: #000000;
   color: #FFFFFF;
 }
 
+main {
+  margin: 3% 0px;
+  padding: 10px;
+  position: relative;
+  left: 10%;
+  right: 20%
+  border-left: 4px solid #FFFFFF;
+  border-right: 2px dashed #FFFFFF;
+}
+
+table#planets {
+  border-collapse: collapse;
+}
+
+th {
+  text-
+}
+
 td, th {
   padding: 10px;
   margin: 0px;
+  text-align: center;
 } 
 
-tr:hover {
+td {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.rowHead {
+  text-align: left;
+  background-color: #542603;
+}
+
+.greyHover:hover > .rowHead {
+  background-color: #803904;
+}
+
+.greyHover:hover {
   background-color: #333333;
 }
